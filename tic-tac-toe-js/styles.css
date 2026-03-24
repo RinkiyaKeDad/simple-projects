@@ -19,13 +19,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .top > div {
   border-width: 1px 1px 0px 1px;
 }
 
-.top > div[cellNumber="1"] {
+.top > div#cell-1 {
   border-width: 1px 0px 0px 0px;
 }
 
@@ -33,10 +34,18 @@ body {
   border-width: 1px 1px 0px 1px;
 }
 
-.middle > div[cellNumber="4"] {
+.middle > div#cell-4 {
   border-width: 1px 0px 0px 0px;
 }
 
-.bottom > div[cellNumber="7"] {
+.bottom > div#cell-7 {
   border-width: 1px 0px 1px 0px;
+}
+
+.bottom-section {
+  margin-top: 2rem;
+}
+
+.btn {
+  margin-top: 1rem;
 }
